@@ -5,7 +5,7 @@ import { openUrl } from '@tauri-apps/plugin-opener';
 import { onOpenUrl } from '@tauri-apps/plugin-deep-link';
 
 async function openLoginWindow() {
-  const url = "https://nh-center-zvvu.shuttle.app"; // Replace with your actual login URL
+  const url = "https://nh-center-zvvu.shuttle.app/login"; // Replace with your actual login URL
   try {
     await openUrl(url);
   } catch (error) {

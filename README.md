@@ -1,7 +1,15 @@
-# Tauri + Vue 3
+POC for authentification cycle
 
-This template should help get you started developing with Tauri + Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+use to open the web browser and authentificate with Google
+https://nh-center-zvvu.shuttle.app/login
 
-## Recommended IDE Setup
+Redirection after login, will reopen the application
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+with the following scheme
+komee-app://logged?{token}
+
+use the token return by the url to get the tokens
+
+see https://github.com/WarthogVN/nh-center for the authentification API
+
+TODO use reqwest crate after login to retrieve the tokens
