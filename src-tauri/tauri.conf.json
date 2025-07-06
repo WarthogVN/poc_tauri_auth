@@ -28,7 +28,7 @@
         { "host": "another.site.br" }
       ],
       "desktop": {
-        "schemes": ["poc-tauri-auth-app"]
+        "schemes": ["komee-app"]
       }
     }
   },
